@@ -1,0 +1,24 @@
+section {
+    width: 500px;
+    height: 500px;
+    background-color: mediumseagreen;
+}
+
+#rgba {
+    width: 50%;
+    height: 50%;
+    background-color: grey;
+    transition: 2s;
+}
+
+#rgba:hover {
+    background-color: cyan;
+    border-radius: 50%;
+}
+
+#opacity {
+    width: 50%;
+    height: 50%;
+    background-color: skyblue;
+    opacity: 0.5;
+}
